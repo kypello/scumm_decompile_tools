@@ -1,0 +1,13 @@
+Games/
+verb_codes.txt
+scummimg.log
+PythonScripts/auto_translate_insults.py
+PythonScripts/generate_item_registry.py
+PythonScripts/insult_responses.py
+PythonScripts/merge_trans_tables.py
+PythonScripts/replace_translated_lines.py
+PythonScripts/scummimg.log
+PythonScripts/Tools/JestarJokin/scummbler_py2/
+PythonScripts/Tools/JestarJokin/scummimg_exe/
+PythonScripts/Tools/JestarJokin/scummimg_py2/
+PythonScripts/Tools/JestarJokin/scummpacker_py2/
