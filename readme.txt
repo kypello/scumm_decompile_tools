@@ -1,7 +1,3 @@
-this is my Scumm compiling and decompiling stuff!!!!!
-
----
-
 To decompile a game, run decompile.py with the following three arguments: game folder, output folder, game version
 The game version argument can be one of the following: MI1EGA, MI1VGA, MI1CD, MI2 (this is a subset of the game arguments accepted by scummpacker)
 For example:
