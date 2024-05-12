@@ -221,7 +221,7 @@ def descumm(input_path, version, args):
 					object_name = re.search("<name>(.*)</name>", object_file_text).group(1)
 					line_table[object_name] = object_name
 	
-	if version == "5":
+	if version == "5" and not "no_images" in args:
 		background_image_path = os.path.join(input_path, "background.png")
 
 		os.system('python3 ' + scummimg_path + ' ' + input_path + ' ' + background_image_path + ' -v 5 -d')

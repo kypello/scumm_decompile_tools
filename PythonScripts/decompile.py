@@ -55,9 +55,9 @@ def decompile(game_path, decompiled_path, game_id):
         rooms = [f.path for f in os.scandir(os.path.join(decompiled_path, room_root_path)) if f.is_dir()]
         for room in rooms:
             if game_id == "MI1CD" or game_id == "MI2":
-                descumm.descumm(room, "5", [])
+                descumm.descumm(room, "5", sys.argv)
             elif game_id == "MI1EGA" or game_id == "MI1VGA":
-                descumm.descumm(room, "4", [])
+                descumm.descumm(room, "4", sys.argv)
     
     print(game_id + " successfully decompiled!!")
 
