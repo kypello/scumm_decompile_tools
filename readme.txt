@@ -1,4 +1,4 @@
-Hi this is a readme, I will add stuff here later
+this is my Scumm compiling and decompiling stuff!!!!!
 
 ---
 
@@ -9,6 +9,7 @@ For example:
 python3 decompile.py \path\to\monkey \path\to\monkey_decompiled MI1CD
 
 Optionally, you can add a fourth argument, "no_images". This will decompile the game without decoding any images
+Image decompilation and recompilation requires the Pillow module to be installed. it can be installed with: pip install Pillow
 
 To recompile the game, run recompile.py with the following three arguments: decompiled folder, output folder, game version
 For example:
